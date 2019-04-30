@@ -1,17 +1,20 @@
+<?php
+session_start()
+if ($_SESSION['email']!==""){
+	$email=$_SESSION['email'];
+	echo "vous ètre connecter avec le mail: $email";
+}
 
+?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-<title>acceuil</title>
+<title>home</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Estate Town Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 
-    
-	
-	<!-- css files -->
+
     <link href="css/bootstrap.css" rel='stylesheet' type='text/css' /><!-- bootstrap css -->
     <link href="css/style.css" rel='stylesheet' type='text/css' /><!-- custom css -->
     <link href="css/font-awesome.min.css" rel="stylesheet"><!-- fontawesome css -->
@@ -25,7 +28,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
 
 
-<!-- //header -->
+
 <header class="py-4"style ="background-color:url(images/plan.jpg) background:cover background-repeat: no-repeat;"></style>
 	<div class="container">
 			<div id="logo">

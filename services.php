@@ -2,15 +2,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>acceuil</title>
+<title>service</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<script src='https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>
-<meta name="keywords" content="Estate Town Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-
-    
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>  
 	
 	<!-- css files -->
     <link href="css/bootstrap.css" rel='stylesheet' type='text/css' /><!-- bootstrap css -->
@@ -35,7 +31,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!-- navigation -->
 		<nav class="d-lg-flex">
 
-			<label for="drop" class="toggle">|||</label>
+			<label for="drop" class="toggle">menu</label>
 			<input type="checkbox" id="drop" />
 			<ul class="menu mt-2 ml-auto">
 				<li class="mr-lg-4 mr-3 active"><a href="index.php">acceuil</a></li>
@@ -46,12 +42,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<a href="#">Compte <span class="fa fa-angle-down" aria-hidden="true"></span></a>
 				<input type="checkbox" id="drop-2"/>
 				<ul class="inner-ul">
-					<li><a href="sign.php">s'inscrire</a></li>
-					<li><a href="login.php">connexion</a></li>
-				<li><a href="deconnexion.php">deconnexion</a></li>
+					<li><a href="inscription.php">s'inscrire</a></li>
+					<li><a href="connexion.php">connexion</a></li>
+				
 				</ul>
 				</li>
-				<li class="mr-lg-4 mr-3"><a href="properties.php">batiments</a></li>
+				<li class="mr-lg-4 mr-3"><a href="batiment.php">batiments</a></li>
 				<li class="mr-lg-4"><a href="contact.php">Contact</a></li>
 			</ul>
 			
